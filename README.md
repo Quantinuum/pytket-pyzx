@@ -6,8 +6,9 @@
 [Pytket](https://tket.quantinuum.com/api-docs/index.html) is a python module for interfacing
 with tket, a quantum computing toolkit and optimising compiler developed by Quantinuum.
 
-`pytket-pyzx` is an extension to `pytket` that allows `pytket` circuits to be
-executed on .
+`pytket-pyzx` is an extension to `pytket` that allows `pytket` circuits to be converted
+to and from [PyZX](https://github.com/Quantomatic/pyzx) representations and executed
+using PyZX.
 
 Some useful links:
 
