@@ -16,7 +16,6 @@ from fractions import Fraction
 
 from pytket.architecture import Architecture
 from pytket.circuit import Circuit, Op, OpType, Qubit, UnitID
-
 from pyzx.circuit import Circuit as pyzxCircuit
 from pyzx.circuit import gates as zxGates
 from pyzx.graph.graph import Graph as PyzxGraph
@@ -37,9 +36,7 @@ _tk_to_pyzx_gates = {
     OpType.SWAP: zxGates.SWAP,
 }
 
-_pyzx_to_tk_gates: dict = dict(  # noqa: C402
-    (item[1], item[0]) for item in _tk_to_pyzx_gates.items()
-)
+_pyzx_to_tk_gates: dict = {item[1]: item[0] for item in _tk_to_pyzx_gates.items()}
 
 _parameterised_gates = {OpType.Rz, OpType.Rx}
 
