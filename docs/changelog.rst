@@ -3,10 +3,10 @@
 Changelog
 ~~~~~~~~~
 
-0.36.0 (unreleased)
--------------------
+0.36.0 (January 2026)
+---------------------
 
-* Update pytket minimium version requirement to 2.0.1.
+* Updated pytket version requirement to 2.11.
 * Updated minimum pyzx version requirement to 0.9.0.
 
 0.35.0 (October 2024)
